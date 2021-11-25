@@ -2,18 +2,41 @@ body {
   background-color: aqua;
 }
 
-button {
+.container {
+  text-align: center;
+}
+
+.container .heading {
+  padding-bottom: 15px;
+}
+
+.container-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.container-wrapp .first-button {
+  width: 50%;
+}
+
+.container-wrapp button {
   color: white;
   border: 0;
   padding: 10px;
   font-size: 15px;
 }
 
-.firstbutton {
+.container-wrapp .firstbutton {
   background-color: blue;
 }
 
-.secondbutton {
+.container-wrapp .second-button {
+  width: 50%;
+}
+
+.container-wrapp .secondbutton {
   background-color: red;
 }
 /*# sourceMappingURL=style.css.map */

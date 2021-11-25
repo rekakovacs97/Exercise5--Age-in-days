@@ -2,18 +2,37 @@ body {
     background-color: aqua;
 }
 
+.container {
+    text-align: center;
 
-button {
-    color: white;
-    border: 0;
-    padding: 10px;
-    font-size: 15px;
-}
+    .heading {
+        padding-bottom: 15px;
+    }
 
-.firstbutton {
-    background-color: blue;
-}
+    .container-wrapp {
+        display: flex;
+        width: 70%;
 
-.secondbutton {
-    background-color: red;
+            .first-button {
+                width: 35%;
+            }
+
+                button {
+                    color: white;
+                    border: 0;
+                    padding: 10px;
+                    font-size: 15px;
+                }
+
+                .firstbutton {
+                    background-color: blue;
+                }
+
+            .second-button {
+                width: 35%;
+            }
+
+                .secondbutton {
+                    background-color: red;   
+                }
 }
