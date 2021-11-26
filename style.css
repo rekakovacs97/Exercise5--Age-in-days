@@ -4,39 +4,45 @@ body {
 
 .container {
   text-align: center;
+  width: 100%;
 }
 
 .container .heading {
   padding-bottom: 15px;
 }
 
-.container-wrapp {
+.container .container-wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 70%;
 }
 
-.container-wrapp .first-button {
-  width: 50%;
-}
-
-.container-wrapp button {
+.container .container-wrapp button {
   color: white;
-  border: 0;
-  padding: 10px;
+  padding: 20px;
   font-size: 15px;
 }
 
-.container-wrapp .firstbutton {
+.container .container-wrapp .first-button {
+  width: 35%;
+}
+
+.container .container-wrapp .firstbutton {
   background-color: blue;
 }
 
-.container-wrapp .second-button {
-  width: 50%;
+.container .container-wrapp .second-button {
+  width: 35%;
 }
 
-.container-wrapp .secondbutton {
+.container .container-wrapp .secondbutton {
   background-color: red;
+}
+
+.container .box-for-result .result {
+  background: blue;
+  height: 30px;
+  width: 30px;
 }
 /*# sourceMappingURL=style.css.map */

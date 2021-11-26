@@ -4,6 +4,7 @@ body {
 
 .container {
     text-align: center;
+    width: 100%;
 
     .heading {
         padding-bottom: 15px;
@@ -13,25 +14,34 @@ body {
         display: flex;
         width: 70%;
 
-            .first-button {
-                width: 35%;
-            }
+        button {
+            color: white;
+            padding: 20px;
+            font-size: 15px;
+        }
 
-                button {
-                    color: white;
-                    padding: 20px;
-                    font-size: 15px;
-                }
+        .first-button {
+            width: 35%;
+        }
 
-                .firstbutton {
-                    background-color: blue;
-                }
+        .firstbutton {
+            background-color: blue;
+        }
 
-            .second-button {
-                width: 35%;
-            }
+        .second-button {
+            width: 35%;
+        }
 
-                .secondbutton {
-                    background-color: red;   
-                }
+        .secondbutton {
+            background-color: red;   
+        }
+    }
+
+    .box-for-result {
+        .result {
+            background: blue;
+            height: 30px;
+            width: 30px;
+        }
+    }      
 }
