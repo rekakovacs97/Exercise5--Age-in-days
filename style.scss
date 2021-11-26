@@ -38,11 +38,7 @@ body {
         }
     }
 
-    .box-for-result {
-        .result {
-            background: blue;
-            height: 30px;
-            width: 30px;
-        }
-    }      
+    .info{
+        display: none;
+    }
 }

@@ -41,9 +41,7 @@ body {
   background-color: red;
 }
 
-.container .box-for-result .result {
-  background: blue;
-  height: 30px;
-  width: 30px;
+.container .info {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
