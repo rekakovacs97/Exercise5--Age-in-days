@@ -12,7 +12,8 @@ body {
 
     .container-wrapp {
         display: flex;
-        width: 70%;
+        width: 100%;
+        margin-bottom: 40px;
 
         button {
             color: white;
@@ -21,7 +22,7 @@ body {
         }
 
         .first-button {
-            width: 35%;
+            width: 50%;
         }
 
         .firstbutton {
@@ -29,7 +30,7 @@ body {
         }
 
         .second-button {
-            width: 35%;
+            width: 50%;
         }
 
         .secondbutton {
