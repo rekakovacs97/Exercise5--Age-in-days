@@ -10,6 +10,50 @@ body {
         padding-bottom: 15px;
     }
 
+    button {
+            color: white;
+            padding: 20px;
+            font-size: 15px;
+        }
+
+        .first-button { 
+            width: 50%;
+        }
+
+        .firstbutton {
+            background-color: blue;
+        }
+
+        .second-button {
+            width: 50%;
+        }
+
+        .secondbutton {
+            background-color: red;   
+        }
+
+    button {
+            color: white;
+            padding: 20px;
+            font-size: 15px;
+        }
+
+        .first-button { 
+            width: 50%;
+        }
+
+        .firstbutton {
+            background-color: blue;
+        }
+
+        .second-button {
+            width: 50%;
+        }
+
+        .secondbutton {
+            background-color: red;   
+        }
+
     .container-wrapp {
         display: flex;
         width: 100%;
@@ -21,7 +65,7 @@ body {
             font-size: 15px;
         }
 
-        .first-button {
+        .first-button { 
             width: 50%;
         }
 
@@ -37,6 +81,8 @@ body {
             background-color: red;   
         }
     }
+
+
 
     .info{
         display: none;
